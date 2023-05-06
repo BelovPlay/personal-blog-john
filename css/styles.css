@@ -239,3 +239,63 @@
     color: #21243D;
     margin-bottom: 54px;
 }
+
+/* styles for page blog */
+.content{
+    margin:auto;
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.blog__title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.blog__event-block{
+    margin-bottom: 60px;
+}
+.blog__event-title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 25px;
+}
+.event-date{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    text-decoration: none;
+    margin-right: 22px;
+}
+.event-theme{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    text-decoration: none;
+    margin-left:22px;
+}
+.event__text-describe{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 25px;
+}
