@@ -1,45 +1,50 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Heebo';
 }
-.wrapper{
+.wrapper{   
     width:1152px;
     margin:auto;
+    /* border:1px solid black; */
+}
+.container{
+    width:860px;
+    margin:auto;
+    /* border:1px solid black; */
 }
 .header{
-    margin-top:27px;
-    text-align: right;
-}
-.main__content{
-    display:flex;
-    margin:auto;
-    justify-content:space-around;
-    /* align-items: center; */
+    margin-bottom: 140px;
+    margin-top: 27px;
 }
 .menu{
     display:flex;
     justify-content:flex-end;
-    margin-bottom: 140px;
     margin-right:60px;
 }
 .menu__list-items{
     list-style-type:none;
     display:flex;
-    justify-content:space-between;
-    width:240px;
+}
+.menu__item{
+    margin-right:37px;
 }
 .menu__link{
-    font-family: 'Heebo';
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
     text-align: right;
     color: #000000;
-    text-decoration: none;
+}
+.main__content{
+    display:flex;
+}
+.main__text{
+    margin-right: 115px;
 }
 .main__title{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -48,45 +53,40 @@
     margin-bottom: 40px;
 }
 .main__subtitle{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
-    margin-bottom:47px;
+    margin-bottom:40px;
+    width: 497px;
 }
 .main__link{
+    box-sizing: border-box;
+    text-decoration: none;
     background: #FF6464;
     border-radius: 2px;
-    box-sizing: border-box;
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
     color: #FFFFFF;
-    text-decoration: none;
-    padding:13px 20px;
+    padding:15px 21px 17px 20px;
     display:inline-block;
-    margin-bottom:150px;
+    margin-bottom: 71px;
 }
-/* style for section recent-posts */
+/* styles for section recent-post */
 .recent-posts{
     background-color:#EDF7FA;
 }
-.recent-posts__content{
-    display:flex;
-    flex-direction:column;
-}
 .recent-posts__header{
     display:flex;
-    width:900px;
+    align-items: center;
     justify-content:space-between;
-    margin:auto;
+    padding-top:25px;
+    padding-bottom:25px;
 }
 .recent-posts__title{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -96,141 +96,137 @@
     color: #21243D;
 }
 .recent-posts__link{
-    text-decoration: none;
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: right;
     color: #00A8CC;
+    text-decoration: none;
 }
 .recent-posts__posts{
-    margin-top:30px;
     display:flex;
-    margin:auto;
     justify-content:space-between;
-    width:850px;
-    margin:auto;
-    margin-bottom: 150px;
 }
 .recent-post{
-    width:375px;
+    box-sizing:border-box;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
-    box-sizing: border-box;
-    padding:24px 21px 7px 23px;
+    width:418px;
+    height:295px;
+    padding:24px 46px 35px 23px;
+    margin-bottom: 32px;
 }
 .recent-post__title{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 38px;
     color: #21243D;
-    margin-bottom:20px;
+    margin-bottom:17px;
 }
 .recent-post__info{
     display:flex;
-    justify-content:space-between;
-    align-items: center;
-    margin-bottom:11px;
+    margin-bottom:21px;
+}
+.recent-post__date,.recent-post__theme-post{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
 }
 .recent-post__date{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: #21243D;
-    text-decoration: none;
+    margin-right:30px;
 }
 .recent-post__theme-post{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: #21243D;
-    text-decoration: none;
+    margin-left: 30px;
 }
 .recent-post__post-describe{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
-    margin-bottom: 40px;
 }
-/* styles for section works */
+/* styles for section featured-works */
 .featured-works{
-    /* width:900px; */
-    margin:auto;
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 83px;
 }
 .featured-works__title{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 60px;
     color: #21243D;
-    margin-bottom: 40px;
+    margin-top:16px;
 }
 .feaured-works__work-block{
     display:flex;
-    margin:auto;
-    justify-content:space-around;
-    margin-bottom:45px;
+    margin-top:50px;
+}
+.featured-works__image{
+    margin-right: 18px;
 }
 .featured-work__title{
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 44px;
     color: #21243D;
+    margin-bottom:6px;
+}
+.featured-works__info{
+    display:flex;
+    align-items: center;
+    margin-bottom:20px;
 }
 .featured-woks__date{
-    text-decoration: none;
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    line-height: 60px;
     color: #FFFFFF;
     background: #142850;
     border-radius: 16px;
-    padding:5px 11px 7px; 
-    margin-right:10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding:5px 10px 7px 10px;
+    display:inline-block;
+    margin-right:26px;
 }
 .featured-works__theme{
-    text-decoration: none;
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    text-decoration: none;
+}
+.featured-works__text-describe{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #21243D;
+    width:560px;
 }
 /* styles for footer */
-.footer{
+.soc__list-items{
+    list-style-type:none;
     display:flex;
     justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:30px;
 }
-.soc__list-items{
-    padding-top: 51px;
-    margin-bottom:26px;
-    list-style-type:none;
-    display:flex;   
-    margin:auto;
-    width:260px;
-    justify-content:space-evenly;
+.soc__item{
+    margin-right:35px;
 }
 .copyright-text{
-    margin-top: 26px;
-    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -238,199 +234,4 @@
     text-align: center;
     color: #21243D;
     margin-bottom: 54px;
-}
-
-/* styles for page blog */
-.content{
-    margin:auto;
-    width:900px;
-    text-align: center;
-}
-.blog__title{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
-    color: #21243D;
-    margin-bottom: 55px;
-}
-.blog__event-block{
-    margin-bottom: 60px;
-}
-.link__active{
-    color:#FF6464;
-}
-.blog__event-title{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 44px;
-    color: #21243D;
-    margin-bottom: 25px;
-}
-.event-date{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #21243D;
-    text-decoration: none;
-    margin-right: 22px;
-}
-.event-theme{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #8695A4;
-    text-decoration: none;
-    margin-left:22px;
-}
-.event__text-describe{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21243D;
-    margin-top: 25px;
-}
-/* styles for page works */
-.work__title{
-    margin-left: 250px;
-}
-.work-block__content{
-    display:flex;
-    justify-content:space-between;
-    margin:auto;
-    margin-bottom:100px;
-    align-items: center;
-    width:650px;
-}
-/* styles for adaptive */
-@media screen and (max-width:800px){
-    *{
-        /* border:1px solid black; */
-    }
-    .wrapper{
-        width: 330px;
-    }
-    .container{
-        width:330px;
-    }
-    .menu__list-items{
-        display:none;
-    }
-    .burger-menu{
-        display:flex;
-        flex-direction:column;
-    }
-    .burger-line{
-        border:1px solid #21243D;
-        display:block;
-        margin-bottom:5px;
-        width:28px;
-        height: -1px;
-    }
-    .main__content{
-        display:flex;
-        flex-direction:column-reverse;
-        text-align: center;
-    }
-    .main__subtitle{
-        width:300px;
-    }
-    .main__link{
-        margin-bottom:60px;
-    }
-    /* styles for section recent-posts */
-    .recent-posts__link{
-        display:none;
-    }
-    .recent-posts__posts{
-        width:100%;
-        display:flex;
-        flex-direction:column;
-    }
-    .recent-posts__content{
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-    }
-    .recent-post__info{
-        display:flex;
-        width:250px;
-    }
-    .recent-post{
-        width:330px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-    .recent-posts__header{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        width:330px;
-    }
-    .recent-post__title{
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 30px;
-        color: #21243D;
-    }
-    .recent-post__post-describe{
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;    
-        color: #21243D;
-        width:314px;
-    }
-    /* styles for section featured-works */
-    .featured-works__title{
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 60px;
-        color: #21243D;
-    }
-    .featured-works__content{
-        display:flex;
-        flex-direction:column;
-        width:350px;
-    }
-    .feaured-works__work-block{
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-    }
-    .featured-work__title{
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
-        color: #21243D;
-    }
-    .featured-works__text-describe{
-        width: 314px;
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #21243D;
-    }
 }
