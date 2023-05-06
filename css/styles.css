@@ -164,6 +164,56 @@
     margin-bottom: 40px;
 }
 /* styles for section works */
+.featured-works{
+    width:900px;
+    margin:auto;
+}
+.featured-works__title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+.feaured-works__work-block{
+    display:flex;
+    margin:auto;
+    justify-content:space-around;
+    margin-bottom:45px;
+}
+.featured-work__title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+.featured-woks__date{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background: #142850;
+    border-radius: 16px;
+    padding:5px 11px 7px; 
+    margin-right:10px;
+}
+.featured-works__theme{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
 /* styles for footer */
 .footer{
     display:flex;
