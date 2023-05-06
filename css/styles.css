@@ -310,3 +310,89 @@
     align-items: center;
     width:650px;
 }
+/* styles for adaptive */
+@media screen and (max-width:380px){
+    .wrapper{
+        width: 330px;
+    }
+    .container{
+        width:330px;
+        border:1px solid black;
+    }
+    .menu__list-items{
+        display:none;
+    }
+    .burger-menu{
+        display:flex;
+        flex-direction:column;
+    }
+    .burger-line{
+        border:1px solid #21243D;
+        display:block;
+        margin-bottom:5px;
+        width:28px;
+        height: -1px;
+    }
+    .main__content{
+        display:flex;
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .main__subtitle{
+        width:300px;
+    }
+    .main__link{
+        margin-bottom:60px;
+    }
+    /* styles for section recent-posts */
+    .recent-posts__link{
+        display:none;
+    }
+    .recent-posts__posts{
+        display:flex;
+        flex-direction:column;
+    }
+    .recent-posts__content{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .recent-post__info{
+        display:flex;
+        width:250px;
+    }
+    .recent-post{
+        width:330px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .recent-posts__header{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:330px;
+    }
+    .recent-post__title{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        color: #21243D;
+    }
+    .recent-post__post-describe{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;    
+        color: #21243D;
+        width:314px;
+    }
+    .{
+        
+    }
+}
