@@ -190,7 +190,6 @@
     font-size: 30px;
     line-height: 44px;
     color: #21243D;
-    margin-bottom: 20px;
 }
 .featured-woks__date{
     text-decoration: none;
@@ -243,10 +242,8 @@
 /* styles for page blog */
 .content{
     margin:auto;
-    width:700px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
+    width:900px;
+    text-align: center;
 }
 .blog__title{
     font-family: 'Heebo';
@@ -300,4 +297,16 @@
     line-height: 24px;
     color: #21243D;
     margin-top: 25px;
+}
+/* styles for page works */
+.work__title{
+    margin-left: 250px;
+}
+.work-block__content{
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+    margin-bottom:100px;
+    align-items: center;
+    width:650px;
 }
